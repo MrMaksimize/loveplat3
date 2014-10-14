@@ -1,6 +1,6 @@
 module.exports = {
-  title: 'LovePlatform',
-  machineTitle: 'loveplatform',
+  title: process.env.APP_TITLE || 'LovePlatform',
+  machineTitle: process.env.MACHINE_TITLE || 'loveplatform',
   heading: 'I Love LovePlatform Because...',
   shareUrl: 'http://bit.ly/loveplatform',
   form: {
