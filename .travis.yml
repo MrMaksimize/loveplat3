@@ -11,7 +11,7 @@ deploy:
     on:
       repo: MrMaksimize/loveplat3
     run:
-      - restart
+      restart
   - provider: heroku
     api_key:
       secure: XVqe1KwasdsrPJNxPmu2dsSrSpQiAM6BXFLRDGT9el2zgOeRvP8it+qCEl/KzyUvFrP7W1kQqQhW+1+ogn2T8v+cQH8hyR0ZunsF4T3gVOevyBRIjMjjYzPgaC2eVZop51TjlDCwbq7WNJ5cg7HDH4aeNQuC74n8l0V8kaWCD94=
@@ -19,4 +19,4 @@ deploy:
     on:
       repo: MrMaksimize/loveplat3
     run:
-      - restart
+      restart
