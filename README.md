@@ -1,5 +1,9 @@
 #Love Platform
 
+# Currently Deploying TO:
+* http://alexlove.herokuapp.com
+* http://nicolelove.herokuapp.com
+
 This is an abstraction of [I Love Puerto Rico](http://ilovepuertorico.org)
 
 ##Running
