@@ -4,11 +4,19 @@ services:
 node_js:
   - '0.10'
 deploy:
-  provider: heroku
-  api_key:
-    secure: HNQaV5gN2tOpf6Njjt11sFQCZl+HGS4ZEQxPPsBcKnWLvNBW0EJyamvhOZO25B2vwDGVIdrW5p8MpFWojFRx4eiK2xJsVew/l26k7UdtLiDKv8o9w+7NgbYIXTHJzdVZjomJ6L7oPuuZFYDYqk5PHj+ddzqDJyBtoesy92/Frdw=
-  app: loveplat3
-  on:
-    repo: MrMaksimize/loveplat3
-  run:
-    - restart
+  - provider: heroku
+    api_key:
+      secure: GP4sBK/UTDI9D0qwctuNLQ8SHDxIplpm5PVKhzBzEb2tFicvoDSv53O5bGzjYmB8zA/4v94xT6npycbk7Uy73rK/rcxhxuH5zqa9MhGXxe5GuujDsx0GhUrGGWrPzlB0D8DLMkBe4b/XgE6xlTWMd88P4P8xtu1me9uX0fZQlug=
+    app: alexlove
+    on:
+      repo: MrMaksimize/loveplat3
+    run:
+      - restart
+  - provider: heroku
+    api_key:
+      secure: XVqe1KwasdsrPJNxPmu2dsSrSpQiAM6BXFLRDGT9el2zgOeRvP8it+qCEl/KzyUvFrP7W1kQqQhW+1+ogn2T8v+cQH8hyR0ZunsF4T3gVOevyBRIjMjjYzPgaC2eVZop51TjlDCwbq7WNJ5cg7HDH4aeNQuC74n8l0V8kaWCD94=
+    app: nicolelove
+    on:
+      repo: MrMaksimize/loveplat3
+    run:
+      - restart
