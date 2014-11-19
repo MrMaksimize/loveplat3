@@ -1,8 +1,8 @@
 module.exports = {
   title: process.env.APP_TITLE || 'LovePlatform',
   machineTitle: process.env.MACHINE_TITLE || 'loveplatform',
-  heading: 'I Love LovePlatform Because...',
-  shareUrl: 'http://bit.ly/loveplatform',
+  heading: process.env.HEADING || 'I Love LovePlatform Because...',
+  shareUrl: process.env.SHARE_URL || 'http://bit.ly/loveplatform',
   form: {
     textLabel: 'Message',
     textPlaceHolder: 'Message',
@@ -16,8 +16,8 @@ module.exports = {
     tweeting: false,
   },
   twitter: {
-    shareText: 'I love LovePlatform Because',
-    shareHash: 'loveplatform',
+    shareText: process.env.TWITTER_SHARETEXT || 'I love LovePlatform Because',
+    shareHash: process.env.TWITTER_SHAREHASH || 'loveplatform',
   },
   fb: {
     appId: '12345'
